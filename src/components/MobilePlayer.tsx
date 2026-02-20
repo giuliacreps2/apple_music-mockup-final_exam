@@ -24,7 +24,7 @@ function MobilePlayer({ currentTrack }: { currentTrack: Datum | null }) {
   return (
     <Container
       fluid
-      className="fixed-bottom p-2"
+      className="fixed-bottom p-2 mb-2 rounded-2"
       style={{
         backgroundColor: "rgba(18, 18, 18, 0.95)",
         borderTop: "1px solid #333",

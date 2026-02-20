@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <MyNavbar />
+      <MyNavbar currentTrack={currentTrack} />
       <HeroSection />
       <CarouselOverflow />
       <MusicGrid tracks={tracks} onSelectTrack={setCurrentTrack} />
