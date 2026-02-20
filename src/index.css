@@ -67,12 +67,11 @@ button:focus-visible {
   }
 }*/
 
-* {
+body {
   background-color: #121212 !important;
-  color: rgba(255, 255, 255, 0.87) !important;
 }
 
-p,
+/*p,
 a {
   color: rgba(255, 255, 255, 0.87) !important;
-}
+}*/

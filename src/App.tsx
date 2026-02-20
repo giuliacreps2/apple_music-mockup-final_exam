@@ -7,6 +7,7 @@ import MobilePlayer from "./components/MobilePlayer";
 import type { Welcome, Datum } from "./types";
 import CarouselOverflow from "./components/CarouselOverflow";
 import HeroSection from "./components/HeroSection";
+import ToggleSearchMusic from "./components/ToggleSearchMusic";
 
 function App() {
   const urlAPI = "https://striveschool-api.herokuapp.com/api/deezer/search?q=rihanna";
@@ -36,6 +37,7 @@ function App() {
       <HeroSection />
       <CarouselOverflow />
       <MusicGrid tracks={tracks} onSelectTrack={setCurrentTrack} />
+      <ToggleSearchMusic />
       <MobilePlayer currentTrack={currentTrack} />
     </>
   );

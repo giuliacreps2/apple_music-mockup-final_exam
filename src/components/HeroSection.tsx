@@ -16,7 +16,7 @@ function CarouselOverflow() {
         <Row className="flex-nowrap flex-md-wrap overflow-auto overflow-md-visible g-2 p-3">
           {steps.map((step, idx) => (
             <Col key={idx} xs={8} md={6} lg={4} className="d-flex">
-              <Card className="border-0 h-100 related-card">
+              <Card className="border-0 h-100 related-card" style={{ background: "#121212" }}>
                 <Card.Text className="small mb-0">NUOVA STAZIONE RADIO</Card.Text>
                 <Card.Title
                   className="mb-2 fw-bold"
