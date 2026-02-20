@@ -24,7 +24,6 @@ function CarouselOverflow() {
         </span>
       </h3>
 
-      {/* Wrapper responsivo */}
       <div className="related-grid-container">
         <Row className="flex-nowrap flex-md-wrap overflow-auto overflow-md-visible g-2 p-3">
           {steps.map((step, idx) => (
@@ -33,9 +32,9 @@ function CarouselOverflow() {
                 <div className="img-wrapper">
                   <Card.Img variant="top" src={step.t} style={{ aspectRatio: "1/1", objectFit: "cover" }} />
                 </div>
-                <Card.Body className="p-2  text-left d-flex flex-column justify-content-center">
+                <Card.Body className="p-2 text-left d-flex flex-column justify-content-center">
                   <Card.Title
-                    className="small text-dark mb-1 mt-1 fw-bold"
+                    className="small mb-1 mt-1 fw-bold"
                     style={{
                       fontSize: "0.85rem",
                       display: "-webkit-box",

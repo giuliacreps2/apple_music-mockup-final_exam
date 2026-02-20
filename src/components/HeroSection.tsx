@@ -9,7 +9,7 @@ function CarouselOverflow() {
 
   return (
     <div>
-      <h3 className="mb-1 fw-bold p-3">NUOVA STAZIONE RADIO </h3>
+      <h1 className="mb-1 fw-bold p-3">Novità</h1>
 
       {/* Wrapper responsivo */}
       <div className="related-grid-container">
@@ -17,8 +17,9 @@ function CarouselOverflow() {
           {steps.map((step, idx) => (
             <Col key={idx} xs={8} md={6} lg={4} className="d-flex">
               <Card className="border-0 h-100 related-card">
+                <Card.Text className="small mb-0">NUOVA STAZIONE RADIO</Card.Text>
                 <Card.Title
-                  className="text-dark mb-2 mt-1 fw-bold"
+                  className="mb-2 fw-bold"
                   style={{
                     fontSize: "0.92rem",
                     display: "-webkit-box",
